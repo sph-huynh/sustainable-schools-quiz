@@ -1,33 +1,51 @@
 {
-  "Climate" : {
-    "1-easy" : [ [ "WHow many Sustainable Development Goals are there?", "17", "19", "8", "4" ], [ "What is Goal 1?", "No poverty", "Producing less waste", "Using more solar", "Ensuring everybody has access to water" ] ],
-    "2-medium" : [ [ "What is Goal 2?", "Zero Hunger", "Example 1", "Example 2", "Example 4" ] ],
-    "3-hard" : [ [ "What is Goal 3?", "Good health and well being", "Example 1", "Example 2", "Example 4" ], [ "What is Goal 17?", "Partnerships for the goals", "End all forms of poverty everywhere", "Example 1", "Example 2" ] ]
-  },
-  "plants" : {
-    "1-easy" : [ [ "How to plants make energy?", "Photosynthesis", "Hamburgers", "Sun", "Fertiliser" ]],
-    "2-medium" : [ [ "Which of the following is not a technique in making a sustainable garden?", "", "Drip Irrigation", "Organic Gardening", "Native plants and trees" ] ],
-    "3-hard" : [ [ "", "Example 1", "Example 1", "Example 2", "Example 4" ] ]
-  },
-  "Poverty and Hunger" : {
-    "1-easy" : [ [ "Example question", "Answer", "Incorrect", "Incorrect", "Incorrect" ]],
-    "2-medium" : [ [ "Example question", "Answer", "Incorrect", "Incorrect", "Incorrect" ] ],
-    "3-hard" : [ [ "Example question", "Answer", "Incorrect", "Incorrect", "Incorrect" ] ]
-  },
-  "energy" : {
-    "1-easy" : [ [ "Example question", "Answer", "Incorrect", "Incorrect", "Incorrect" ]],
-    "2-medium" : [ [ "Example question", "Answer", "Incorrect", "Incorrect", "Incorrect" ] ],
-    "3-hard" : [ [ "Example question", "Answer", "Incorrect", "Incorrect", "Incorrect" ] ]
-  },
-  "Sustainable Cities" : {
-    "1-easy" : [ [ "Example question", "Answer", "Incorrect", "Incorrect", "Incorrect" ]],
-    "2-medium" : [ [ "Example question", "Answer", "Incorrect", "Incorrect", "Incorrect" ] ],
-    "3-hard" : [ [ "Example question", "Answer", "Incorrect", "Incorrect", "Incorrect" ] ]
-  },  
-  "Education " : {
-    "1-easy" : [ [ "Example question", "Answer", "Incorrect", "Incorrect", "Incorrect" ]],
-    "2-medium" : [ [ "Example question", "Answer", "Incorrect", "Incorrect", "Incorrect" ] ],
-    "3-hard" : [ [ "Example question", "Answer", "Incorrect", "Incorrect", "Incorrect" ] ]
-  },
-  "points" : [ 1, 2, 3 ]
+    "week": 1,
+    "points": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 7
+    },
+    "questions": {
+        "easy": [
+                    [
+                    "How many Sustainable Development Goals are there?",
+                    "17",
+                    "19",
+                    "8",
+                    "4"
+                    ],
+                    [
+                    "What is Goal 1?",
+                    "No poverty",
+                    "Producing less waste",
+                    "Using more solar",
+                    "Ensuring everybody has access to water"
+                    ]
+                ],
+        "medium": [
+                    [
+                    "What is Goal 2?",
+                    "Zero Hunger",
+                    "Example 1",
+                    "Example 2",
+                    "Example 4"
+                    ]
+        ],
+        "hard": [
+                    [
+                    "What is Goal 3?",
+                    "Good health and well being",
+                    "Example 1",
+                    "Example 2",
+                    "Example 4"
+                    ],
+                    [
+                    "What is Goal 17?",
+                    "Partnerships for the goals",
+                    "End all forms of poverty everywhere",
+                    "Example 1",
+                    "Example 2"
+                    ]
+        ]
+    }
 }
